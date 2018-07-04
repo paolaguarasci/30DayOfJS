@@ -3,6 +3,7 @@ const elementi = document.querySelectorAll('.item input[type="checkbox"]');
 let lastChecked;
 
 function setta(e) {
+    // 
     let inBet = false;
     if(e.shiftKey) {
         for (ele of elementi) {
